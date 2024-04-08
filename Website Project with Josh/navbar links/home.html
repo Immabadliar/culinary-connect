@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/Website Project with Josh/navbar links/style.css">
     <link rel="stylesheet" href="/Website Project with Josh/main/style.css">
     <script src="/Website Project with Josh/navbar links/functionality/home.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Home</h1>
-        <input id="post" value="Share a recipe...">
-        <p id="postGoesHere"></p>
-        <button id="postButton">Post</button>
-    </header>
+    <body>
+
+        <header>
+            <!--TODO: Complete The Navbar (For Josh, I need to work on backend)-->
+            <div class="container">
+                <img src="logo.png" alt="logo" class="logo">
+        
+                <nav>
+                    <ul>
+                        <li><a href="/Website Project with Josh/navbar links/home.html">Home</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/courses.html">Courses</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/recipes.html">Recipes</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/favorites.html">Favorites</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/settings.html">Settings</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/contact.html">Contact</a></li>
+                        <li><a href="/Website Project with Josh/navbar links/account.html">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <center>
+        <header>
+            <h1>Home</h1>
+            <input id="post" class="post" value="Share a recipe...">
+            <button id="postButton" class="postButton" onclick="addPost();">Post</button>
+            <p id="postGoesHere" class="cpostGoesHere"></p>
+        </header>
+    </center>
 </body>
 </html>
